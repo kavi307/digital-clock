@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+
+
+body{
+    background-color: black;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .clock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color:red;
+    border-radius: 1rem;
+  }
+  
+  .days-contain {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+  .date input[type="text"] {
+    text-align: center;
+    width: 5rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  
+  .time-content p ,.date-content p{
+    display: inline;
+    font-size: 20px;
+    padding: 13px;
+  }
+  
+  .time {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+  }
+  
+  .time input[type="text"] {
+    text-align: center;
+    width: 5rem;
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.2);
+  }
+  
+  .time h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  #meridiem {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+  #day {
+    text-align: center;
+    width: 19rem;
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  }
+  .time-content{
+      color: black;
+      padding: 0px 20px 0px 0px;
+  }
+  
+  
+  
